@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDishActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:layout_margin="5dp"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        android:id="@+id/etDishName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/DishName"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:textStyle="bold"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:layout_margin="5dp"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Description"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:lines="3"
+        android:gravity="top"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:layout_margin="5dp"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        android:id="@+id/etPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/DishPrice"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:textStyle="bold"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:layout_margin="5dp"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        android:id="@+id/etCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/DishCategory"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:textStyle="bold"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <Spinner
+        android:id="@+id/spinnerStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnSaveDish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="#4caf50"
+        android:text="@string/SaveDish"
+        android:textColor="#263238"
+        app:cornerRadius="1dp"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>

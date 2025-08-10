@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:id="@+id/schedule_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/work_date"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:id="@+id/schedule_shift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shift"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
