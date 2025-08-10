@@ -10,6 +10,7 @@ Restaurant Manager App — це комплексна система для ав�
 <img width="580" height="1034" alt="image" src="https://github.com/user-attachments/assets/1438f1fe-4d06-4103-a16d-31cce73e9435" />
 <img width="419" height="749" alt="image" src="https://github.com/user-attachments/assets/c38317b6-e771-4b1a-a9ab-c46a5cbdce97" />
 <img width="500" height="895" alt="image" src="https://github.com/user-attachments/assets/fc857183-06b9-47a9-8cf7-bd00f0265296" />
+
 🚀 Функціонал
 - Реєстрація та авторизація користувачів
 - Прийом та обробка замовлень
