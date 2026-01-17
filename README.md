@@ -13,6 +13,7 @@ Restaurant Manager App - система автоматизації роботи 
 - Android (Java) - мобільний клієнт
 - Node.js - серверна логіка та API
 - MySQL - зберігання та синхронізація даних
+- Architecture: client-server, REST API, separation of concerns
 
 📦 Як запустити
 1. Клонувати репозиторій: git clone https://github.com/username/restaurant-manager.git
