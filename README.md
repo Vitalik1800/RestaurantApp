@@ -16,7 +16,7 @@ Restaurant Manager App - система автоматизації роботи 
 - Architecture: client-server, REST API, separation of concerns
 
 📦 Як запустити
-1. Клонувати репозиторій: git clone https://github.com/username/restaurant-manager.git
+1. Клонувати репозиторій: git clone https://github.com/Vitalik1800/RestaurantApp.git
 2. Відкрити Android-проєкт у Android Studio
 3. Запустити додаток на емуляторі або реальному пристрої
 
